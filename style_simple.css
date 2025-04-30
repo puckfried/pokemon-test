@@ -1,0 +1,34 @@
+/* For flexbox:
+-> which elements should be in line (my children!)
+-> check for the parent of the children, put display flex
+-> if you are unsure make borders around elements
+*/
+
+header {
+    background-color: rgb(190, 170, 209);
+    display: flex;
+    justify-content: space-between; /*move horizontally*/
+}
+
+header .logo {
+    display: flex;
+    align-items: center;            /*move vertically*/
+}
+
+header img {
+    width: 80px;
+}
+
+
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+header a {
+    color: rgb(55, 16, 92);
+  
+}

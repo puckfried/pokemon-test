@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+
+    background-color: rgb(241, 235, 247);
+}
+
+header {
+    background-color: rgb(190, 170, 209);
+    padding: 0 30px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+}
+
+header h1 {
+    color: rgb(55, 16, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+header a {
+    color: rgb(55, 16, 92);
+    color: rgb(241, 235, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+
+    padding: 10px;
+    background-color: rgb(99, 58, 138);
+    border-radius: 40px;
+}
